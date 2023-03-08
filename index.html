@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+  <label for="depunere">Suma depusa:</label>
+  <input type="number" id="depunere" name="depunere" required>
+</div>
+<div>
+  <label for="rata">Rata castigului (%):</label>
+  <input type="number" step="0.01" id="rata" name="rata" required>
+</div>
+<div>
+  <label for="ani">Perioada (ani):</label>
+  <input type="number" id="ani" name="ani" required>
+</div>
+<button id="calculeaza">Calculeaza</button>
+<div id="rezultate"></div>
+
+<script src="./script.js"></script>
+</body>
+</html>
